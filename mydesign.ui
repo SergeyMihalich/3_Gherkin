@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1106</width>
+    <height>804</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>881</width>
+          <height>236</height>
+         </rect>
+        </property>
+        <row>
+         <property name="text">
+          <string>id</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>name</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>type</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>not null</string>
+         </property>
+        </row>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>125</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>printButton</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="deleteOne">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>0</y>
+          <width>124</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>deleteOne</string>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="myListWidget1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>300</y>
+          <width>231</width>
+          <height>375</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QListWidget" name="myListWidget2">
+        <property name="geometry">
+         <rect>
+          <x>248</x>
+          <y>300</y>
+          <width>631</width>
+          <height>375</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
